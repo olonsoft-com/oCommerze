@@ -24,7 +24,7 @@ class UserTableSeeder extends Seeder
         $user->assignRole($role);
 
         // create 1000 users with just one line by Factory Model
-        factory(User::class, 1000)->create()->each( function( $u ) {
+        factory(User::class, 100000)->create()->each( function( $u ) {
             $u->assignRole('customer');
         });
     }
