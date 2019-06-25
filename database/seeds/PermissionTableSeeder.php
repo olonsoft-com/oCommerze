@@ -33,15 +33,7 @@ class PermissionTableSeeder extends Seeder
            'customer-list',
            'customer-create',
            'customer-edit',
-           'customer-delete',
-           'bill-list',
-           'bill-generate',
-           'bill-edit',
-           'bill-delete',
-           'payment-list',
-           'payment-create',
-           'payment-edit',
-           'payment-delete'
+           'customer-delete'
         ];
 
         $role = Role::where('name', 'super_admin')->first();

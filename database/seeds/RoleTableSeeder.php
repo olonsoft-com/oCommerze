@@ -16,8 +16,8 @@ class RoleTableSeeder extends Seeder
             'super_admin',
         	'admin',
         	'manager',
-            'billman',
-            'customer_support',
+            'moderator',
+            'executive',
             'customer'  
         ];
 
